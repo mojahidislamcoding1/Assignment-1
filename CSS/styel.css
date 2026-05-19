@@ -1,0 +1,66 @@
+*{
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    margin: 0px;
+}
+
+/* nav style  */
+.nav_section{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 55%;
+    padding-top: 35px;
+    padding-bottom: 25px;
+    align-items: center;
+}
+.download-button a{
+     color: #0D1321;
+     background: white;
+     padding: 14px 20px;
+     border: 1px solid #0D1321 ;
+     text-align: center;
+     border-radius: 5px;
+     text-decoration: none;
+
+}
+
+/* Hero style  */
+#hero-section{
+    background-image: url('../assets/Hero-bg.png');
+    background-size:contain;
+    background-position: center;
+    height: 450px;
+    width: 1320px;
+    padding: 60px 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   text-align: center;
+   margin-bottom: 100px;
+}
+
+.carton-img{
+    margin-bottom: 20px;
+    
+}
+.main-title{
+    width: 65%;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+.description{
+    font-size: 14px;
+    color: #666;
+   max-width: 59%;
+    margin-bottom: 30px;
+}
+.contact-btn , a{
+        color: white;
+     background: #0d1117;
+     padding: 16px 20px;
+     border: 1px solid #0D1321 ;
+     text-align: center;
+     border-radius: 5px;
+     text-decoration: none;
+}
+ 
